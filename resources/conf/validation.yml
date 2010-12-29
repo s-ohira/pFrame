@@ -1,0 +1,39 @@
+# 一行掲示板 名前
+name:
+  -
+    name: required
+    args:
+      -名前
+  -
+    name: max
+    args:
+      -RSS ID
+      -36
+# 一行掲示板 本文
+body:
+  -
+    name: required
+    args:
+      -本文
+  -
+    name: max
+    args:
+      -本文
+      -72
+# 一行掲示板 メール
+mail:
+  -
+    name: max
+    args:
+      -URL
+      -メールアドレス
+  -
+    name: mail
+    args:
+      -メールアドレス
+# 一行掲示板 ページ
+page:
+  -
+    name: numeric
+    args:
+      -ページ

@@ -1,0 +1,26 @@
+# Forward設定例
+/bbs/list:
+  action: OnelinerAction
+  class: ../src/action/OnelinerAction.php
+  actionForm: OnelinerForm
+  formClass: ../src/form/OnelinerForm.php
+  method: doList
+  mapping:
+    success: ../resources/tmpl/bbs.tmpl
+    error: ../resources/tmpl/bbs.tmpl
+/bbs/regist:
+  action: OnelinerAction
+  class: ../src/action/OnelinerAction.php
+  actionForm: OnelinerForm
+  formClass: ../src/form/OnelinerForm.php
+  method: doRegist
+  mapping:
+    success: ../resources/tmpl/bbs.tmpl
+    error: ../resources/tmpl/bbs.tmpl
+/bbs/remove:
+  action: OnelinerAction
+  class: ../src/action/OnelinerAction.php
+  method: doRemove
+  mapping:
+    success: ../resources/tmpl/bbs.tmpl
+    error: ../resources/tmpl/bbs.tmpl

@@ -1,0 +1,11 @@
+# DB接続文字列関係
+phptype: sqlite
+database: ../resources/db/oneliner.db
+username:
+password:
+hostspec:
+key:
+cert:
+ca:
+capath:
+cipher:
